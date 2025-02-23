@@ -1,6 +1,7 @@
 {
   "name": "gopf-reactapp",
   "private": true,
+  "homepage": "https://quannguyen1611.github.io/GOPF_React",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
