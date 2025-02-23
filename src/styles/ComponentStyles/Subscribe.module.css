@@ -1,0 +1,21 @@
+.Subscribe {
+    background-color: #f4f4f4;
+    padding: 40px 70px;
+    margin: 20px 70px;
+    border-radius: 10px;
+}
+
+.Subscribe h2 {
+    color: #1848c2;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.SubText {
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 1.6;
+}

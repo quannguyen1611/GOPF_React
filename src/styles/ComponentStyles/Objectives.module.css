@@ -1,0 +1,18 @@
+.objectivesSection {
+    background-color: #f4f4f4;
+    padding: 20px 70px;
+    margin: 20px 70px;
+    border-radius: 10px;
+}
+
+.objectivesSection h1 {
+    color: #1848C2;
+    text-align: center;
+}
+
+.objectivesSection ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 18px;
+    color: black;
+}

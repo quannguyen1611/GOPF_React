@@ -1,0 +1,45 @@
+.schoolHeader {
+    display: flex;
+    background-color: #972222;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    color: #fcb900;
+    font-size: 18px;
+}
+
+.header {
+    display: flex;
+    background-color: white;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 70px;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.navLink {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.navLink:hover {
+    color: #f6782b;
+}
+
+/* Active Page Indicator */
+.active {
+    color: #f6782b; 
+    border-bottom: 1px solid #f6782b; 
+}

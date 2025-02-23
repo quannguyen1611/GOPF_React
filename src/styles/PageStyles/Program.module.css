@@ -1,0 +1,174 @@
+.whole {
+    background-color: white;
+}
+
+/* Tabs Navigation */
+.tab {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    margin-top: 20px;
+    border-bottom: 2px solid #ccc;
+}
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    border-right: 1px solid #ccc;
+    font-size: 17px;
+    color: black;
+}
+.tab button:hover {
+    background-color: #ddd;
+}
+.tab button.active {
+    color: #f6782b;
+    background-color: #ccc;
+}
+
+/* Tab Content */
+.Program-content {
+    display: none;
+    padding: 20px 70px;
+    border-radius: 10px;
+}
+
+.activeContent {
+    display: block;
+}
+
+/* Curriculum Section */
+.curriculumSection {
+    background-color: #f4f4f4;
+    padding: 20px 70px;
+    margin: 20px 70px;
+    border-radius: 10px;
+}
+
+.curriculumSection h1 {
+    color: #1848C2;
+    text-align: center;
+}
+
+.curriculumSection h3 {
+    color: #1848C2;
+    text-align: left;
+}
+
+.curriculumSection ul {
+    list-style-type: circle;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.ApplyLink {
+    background-color: #1848C2;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.ApplyLink:hover {
+    background-color: #f6782b;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    margin: 20px 0;
+    background-color: black;
+    width: 100%;
+}
+
+/* Schedule Section */
+.scheduleSection {
+    background-color: #f4f4f4;
+    padding: 20px 70px;
+    margin: 20px 70px;
+    border-radius: 10px;
+}
+
+.scheduleSection h1 {
+    color: #1848C2;
+    text-align: center;
+}
+
+.scheduleSection ul {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+}
+
+.scheduleSection li {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.scheduleSection li:last-child {
+    border-bottom: none;
+}
+
+/* Class Overview */
+.classSection {
+    background-color: #f4f4f4;
+    padding: 20px 70px;
+    margin: 20px 70px;
+    border-radius: 10px;
+}
+
+.classSection h1 {
+    color: #1848C2;
+    text-align: center;
+}
+
+.classSection p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Objectives */
+.objectivesSection {
+    background-color: #f4f4f4;
+    padding: 20px 70px;
+    margin: 20px 70px;
+    border-radius: 10px;
+}
+
+.objectivesSection h1 {
+    color: #1848C2;
+    text-align: center;
+}
+
+.objectivesSection ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.objectivesSection p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.objectivesSection a {
+    color: #1848C2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.objectivesSection a:hover {
+    text-decoration: underline;
+}
+
+/* Tab content visibility */
+.hidden {
+    display: none;
+}

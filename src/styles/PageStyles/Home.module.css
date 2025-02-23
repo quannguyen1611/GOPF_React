@@ -1,0 +1,42 @@
+.whole {
+    background-color: white; 
+}
+
+/* Overview Section */
+.overview {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto; 
+    padding: 0 70px;
+    justify-content: space-between;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.WelcomeText {
+    color: black;
+    font-size: 40px;
+    width: 300px;
+}
+
+/* Intro Section */
+.Intro {
+    background-color: #f4f4f4;
+    padding: 40px 70px; 
+    margin: 20px 70px; 
+    border-radius: 10px; 
+}
+.Intro h2 {
+    color: #1848C2; 
+    text-align: center; 
+    margin-bottom: 20px; 
+    font-size: 40px;
+}
+.IntroText1, .IntroText2 {
+    color: #000; 
+    font-size: 18px; 
+    margin-bottom: 20px; 
+    text-align: justify; 
+    line-height: 1.6; 
+}

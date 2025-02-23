@@ -1,0 +1,12 @@
+.graduates {
+    background-color: #f4f4f4;
+    padding: 40px 70px; 
+    margin: 20px 70px; 
+    border-radius: 10px; 
+    color: black;
+}
+.graduates h2 {
+    color: #1848C2; 
+    text-align: center; 
+    margin-bottom: 20px; 
+}

@@ -1,0 +1,57 @@
+.whole {
+    padding-top: 0px;
+}
+
+/* Header */
+.schoolHeader {
+    display: flex;
+    background-color: #972222;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    color: #fcb900;
+    font-size: 18px;
+}
+
+.pageTitle {
+    text-align: center;
+    color: #1848C2;
+    margin-top: 20px;
+}
+
+/* Faculty Section */
+.facultyInfo {
+    display: flex;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 20px 70px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+.facultyPhoto {
+    flex: 0 0 200px;
+    margin-right: 20px;
+}
+
+.facultyPhoto img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.facultyDetails {
+    flex: 1;
+}
+
+.facultyDetails h2 {
+    color: #1848C2;
+    margin: 0;
+}
+
+.facultyDetails p {
+    margin: 5px 0;
+    font-size: 18px;
+}
